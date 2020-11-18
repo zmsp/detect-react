@@ -108,6 +108,7 @@ class Game extends React.Component {
     }
 
     return (
+      <div>
       <div className="game">
         <div className="game-board">
           <Board
@@ -119,6 +120,9 @@ class Game extends React.Component {
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
+  
+      </div>
+      <h5>View <a href="https://github.com/zmsp/react-playground" target="_blank" rel="noopener noreferrer">code</a>!</h5>
       </div>
     );
   }
